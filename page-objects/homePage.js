@@ -1,3 +1,4 @@
+//Page object for home page
 var homePageCommands = {
 	fillInSearchField: function(query) {
 		return this.setValue('@searchField', query);
